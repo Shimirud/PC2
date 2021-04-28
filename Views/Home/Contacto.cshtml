@@ -1,16 +1,8 @@
 @model Empresa
 
-<h1>Actualizar Datos</h1>
+<h1>Crear Cuenta</h1>
 
 <form method="post">
-    <div class="form-group">
-        <label asp-for="Nombres"></label>
-        <input asp-for="Nombres" class="form-control">
-    </div>
-    <div class="form-group">
-        <label asp-for="Apellidos"></label>
-        <input asp-for="Apellidos" class="form-control">
-    </div>
     <div class="form-group">
         <label asp-for="Email"></label>
         <input asp-for="Email" class="form-control">
@@ -18,6 +10,10 @@
     <div class="form-group">
         <label asp-for="Password"></label>
         <input asp-for="Password" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Mensaje"></label>
+        <input asp-for="Mensaje" class="form-control">
     </div>
     <button class="btn btn-primary">Enviar</button>
 </form>
